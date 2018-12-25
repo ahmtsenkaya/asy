@@ -20,19 +20,19 @@ time.sleep(3)
 getir=driver.find_element_by_id_('result_box').text
 
 print(getir)
-if getir =='Müzik dinlemek istiyorum.' or 'Bana müzik açar mısın?.' or 'Youtube.'
+if getir =='MÃ¼zik dinlemek istiyorum.' or 'Bana mÃ¼zik aÃ§ar mÃ½sÃ½n?.' or 'Youtube.'
 driver.get('https://www.youtube.com/') 
 else :
-print('işlem tanımlı değil')
+print('islem tanimli degil')
 
-if getir =='Merhaba.' or 'Hello.' or 'Orada mısın?.' or 'Selam.':
+if getir =='Merhaba.' or 'Hello.' or 'Orada mÃ½sÃ½n?.' or 'Selam.':
 time.sleep(1)
 temizle = driver.find_element_by_id('gt-clear')
 temizle.click()
 print('alan temizlendi')
 
 yaz=driver.find_elements_by_class_name('goog-textarea')
-yaz.send_keys('sanada merhaba nasıl yardım edebilirim?')
+yaz.send_keys('sanada merhaba nasÃ½l yardÃ½m edebilirim?')
 
 time.sleep(4)
 
@@ -42,6 +42,6 @@ time.sleep(4)
 print('islem tamam')
 temizle.click()
 else :
-print('işlem tanımlı değil')
+print('islem tanimli degil')
  
 print('system okey')
