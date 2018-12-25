@@ -1,2 +1,3 @@
-# asy
-<--basit asistan temeli-->
+    
+    
+        google translate kullanılarak asistan oluşturma temeli ...
